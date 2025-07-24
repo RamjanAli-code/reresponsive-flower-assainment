@@ -73,3 +73,105 @@
 .bimage {
     width: 100%;
 }
+
+.plants {
+    height: 1290px;
+    width: 100%;
+}
+
+.plant {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.planthead {
+    align-items: center;
+    text-align: center;
+    height: 190px;
+}
+
+.planttitle {
+    font-size: 2.5rem;
+}
+
+.plantdescription {
+    padding-top: 30px;
+    width: 50%;
+    height: 140px;
+    margin: 0 auto;
+    color: rgb(137, 135, 161);
+}
+
+.card {
+    height: 450px;
+    width: 270px;
+    padding: 10px;
+    border: 2px solid rgb(64, 0, 255);
+    align-items: center;
+    text-align: center;
+}
+
+.amount {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.flowername {
+    margin-top: 15px;
+    font-weight: 500;
+    font-style: 1.3rem;
+}
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    height: 37px;
+    background-color: rgb(233, 90, 8);
+    color: rgb(232, 223, 223);
+    font-weight: 500;
+    font-size: .8rem;
+    border: none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.join {
+    height: 400px;
+    width: 100%;
+    background-image: url(/assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+}
+
+.joinsec {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 150px;
+}
+
+.email {
+    width: 60%;
+    height: 40px;
+    border: none;
+}
+
+.jbtn {
+    width: 20%;
+    height: 40px;
+    margin-left: 0;
+    background-color: rgb(233, 90, 8);
+    color: rgb(232, 223, 223);
+    font-weight: 500;
+    font-size: .8rem;
+    border: none;
+    position: relative;
+    right: 6px;
+}
