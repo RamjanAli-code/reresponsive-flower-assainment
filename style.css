@@ -11,6 +11,7 @@
 .nav {
     height: 200px;
     width: 100%;
+    background-color: aqua;
 }
 
 .navsec {
@@ -94,6 +95,10 @@
     font-size: 2.5rem;
 }
 
+.planttitle span {
+    color: rgb(233, 90, 8);
+}
+
 .plantdescription {
     padding-top: 30px;
     width: 50%;
@@ -105,7 +110,7 @@
 .card {
     height: 450px;
     width: 270px;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
     text-align: center;
 }
@@ -134,9 +139,16 @@
 }
 
 .cards {
+    height: 900px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 20px;
+}
+
+.cardimage {
+    height: 320px;
+    width: 100%;
 }
 
 .join {
@@ -184,6 +196,11 @@
 
 .plantslover {
     height: 700px;
+    width: 100%;
+}
+
+.lover {
+    height: 597px;
     width: 100%;
 }
 
@@ -291,7 +308,17 @@
     background-image: url(/assets/deal-bloom.png);
     background-size: cover;
     margin: 10px;
-    padding: 65px;
+    padding: 66px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.leftsecond {
+    background-image: url(/assets/deal-ana.png);
+    background-size: cover;
+    margin: 10px;
+    padding: 66px;
     border-radius: 8px;
     align-items: center;
     text-align: center;
@@ -344,4 +371,141 @@
 
 .righttitle {
     color: white;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+    .navsec {
+        height: 100px;
+    }
+    .text {
+        visibility: hidden;
+    }
+    .icon {
+        position: relative;
+        right: 160px;
+    }
+    .banner {
+        height: 380px;
+    }
+    .rbanner {
+        width: 100%;
+        height: 500px;
+    }
+    .lbanner {
+        width: 350%;
+        padding-top: 60px;
+    }
+    .bimage {
+        height: 190px;
+        width: 420%;
+        position: relative;
+        right: 295px;
+    }
+    .btitle {
+        font-size: 1.5rem;
+    }
+    .bdescription {
+        font-size: .8rem;
+    }
+    .planttitle {
+        font-size: 2rem
+    }
+    .plantdescription {
+        padding-top: 20px;
+        width: 85%;
+        height: 140px;
+        font-size: .8rem;
+    }
+    .planthead {
+        height: 100px;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    .card {
+        margin-top: 60px;
+        width: 185px;
+        padding: 1px;
+        height: 400px;
+    }
+    .plants {
+        height: 2120px;
+    }
+    .plantlover {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .plantslover {
+        height: 1000px;
+    }
+    .rightplantlover {
+        padding: 9px;
+        padding-top: 30px;
+        width: 90%;
+    }
+    .titleplantlover {
+        font-size: 1.8rem;
+    }
+    .rightplantlover ul {
+        font-size: .8rem;
+    }
+    .latestsec {
+        width: 90%;
+    }
+    .latesthead {
+        width: 90%;
+    }
+    .latesttitle {
+        font-size: 2.0rem;
+    }
+    .latestdescription {
+        margin-bottom: 15px;
+        font-size: .8rem;
+    }
+    .latestimage {
+        flex-direction: column;
+    }
+    .leftlatestimage {
+        width: 100%;
+        height: 435px;
+    }
+    .leftfirst {
+        margin: 5px 0;
+    }
+    .leftsecond {
+        margin: 10px 0;
+        padding: 77px;
+    }
+    .rightlatestimage {
+        padding: 98px;
+        margin: 0px;
+    }
+    .latest {
+        height: 850px;
+    }
+    .rightlatestimage {
+        text-align: center;
+        align-items: center;
+        height: 30px;
+    }
+    .righttitle {
+        margin-top: -20px;
+    }
+    .jtitle {
+        font-size: 2.0rem;
+    }
+    .joinsec {
+        padding-top: 120px;
+    }
+    .footer {
+        height: 1020px;
+    }
+    .footersec {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
 }
