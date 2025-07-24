@@ -1,4 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.nav {
+    height: 200px;
+    width: 100%;
+}
+
+.navsec {
+    height: 200px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rnav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.home {
+    display: flex;
+    gap: 60px;
+}
+
+.home li {
+    list-style: none;
+}
+
+.color {
+    color: rgb(137, 135, 161);
+}
+
+.banner {
+    height: 460px;
+    width: 100%;
+}
+
+.bannersec {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lbanner {
+    width: 35%;
+    margin: 150px 0;
+}
+
+.btitle {
+    font-size: 2.5rem;
+}
+
+.btitle span {
+    color: rgb(233, 90, 8);
+}
+
+.bdescription {
+    color: rgb(137, 135, 161);
+}
+
+.bimage {
+    width: 100%;
 }
