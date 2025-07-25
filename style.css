@@ -480,9 +480,6 @@
         margin-bottom: 15px;
         font-size: .8rem;
     }
-    .righttitle {
-        font-size: 1rem;
-    }
     .latestimage {
         flex-direction: column;
     }
@@ -512,6 +509,7 @@
     }
     .righttitle {
         margin-top: -20px;
+        font-size: 1.4rem;
     }
     .jtitle {
         font-size: 2.0rem;
