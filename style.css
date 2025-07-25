@@ -237,8 +237,8 @@
 
 .trust {
     position: absolute;
-    right: 770px;
-    bottom: -1380px;
+    right: 600px;
+    bottom: -1450px;
 }
 
 .trustimage {
@@ -318,7 +318,7 @@
     background-image: url(assets/deal-bloom.png);
     background-size: cover;
     margin: 10px;
-    padding: 45px;
+    padding: 50px;
     border-radius: 8px;
     align-items: center;
     text-align: center;
@@ -328,8 +328,7 @@
     background-image: url(assets/deal-ana.png);
     background-size: cover;
     margin: 10px;
-    padding: 45px;
-    border-radius: 8px;
+    padding: 50px border-radius: 8px;
     align-items: center;
     text-align: center;
 }
