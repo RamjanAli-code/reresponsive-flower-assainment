@@ -73,11 +73,13 @@
 }
 
 .bdescription {
+    padding-top: 10px;
     color: rgb(137, 135, 161);
 }
 
 .bimage {
     width: 100%;
+    height: 355px;
 }
 
 .plants {
