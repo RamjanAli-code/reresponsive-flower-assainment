@@ -237,8 +237,8 @@
 
 .trust {
     position: absolute;
-    right: 600px;
-    bottom: -1450px;
+    right: 620px;
+    bottom: -1470px;
 }
 
 .trustimage {
@@ -318,7 +318,7 @@
     background-image: url(assets/deal-bloom.png);
     background-size: cover;
     margin: 10px;
-    padding: 50px;
+    padding: 60px;
     border-radius: 8px;
     align-items: center;
     text-align: center;
@@ -328,7 +328,8 @@
     background-image: url(assets/deal-ana.png);
     background-size: cover;
     margin: 10px;
-    padding: 50px border-radius: 8px;
+    padding: 60px;
+    border-radius: 8px;
     align-items: center;
     text-align: center;
 }
@@ -509,7 +510,7 @@
     .rightlatestimage {
         text-align: center;
         align-items: center;
-        height: 30px;
+        height: 0px;
     }
     .righttitle {
         margin-top: -20px;
