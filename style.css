@@ -309,6 +309,10 @@
     margin: 0 auto;
 }
 
+.righttitle {
+    font-size: 1.8rem;
+}
+
 .leftlatestimage {
     width: 50%;
     height: 500px;
@@ -318,7 +322,7 @@
     background-image: url(assets/deal-bloom.png);
     background-size: cover;
     margin: 10px;
-    padding: 57px;
+    padding: 53px;
     border-radius: 8px;
     align-items: center;
     text-align: center;
@@ -328,7 +332,7 @@
     background-image: url(assets/deal-ana.png);
     background-size: cover;
     margin: 10px;
-    padding: 60px;
+    padding: 61px;
     border-radius: 8px;
     align-items: center;
     text-align: center;
@@ -336,7 +340,7 @@
 
 .rightlatestimage {
     width: 50%;
-    height: 170px;
+    height: 164px;
 }
 
 .rightlatestimage {
@@ -396,10 +400,6 @@
         visibility: hidden;
         display: none;
     }
-    /* .icon {
-        position: relative;
-        right: 160px;
-    } */
     .banner {
         height: 600px;
     }
@@ -415,12 +415,6 @@
         width: 90%;
         margin: -130px 0;
         padding: 5%;
-    }
-    .bimage {
-        /* height: 240px;
-        width: 245%;
-        position: relative;
-        right: 155px; */
     }
     .btitle {
         font-size: 1.8rem;
@@ -452,7 +446,7 @@
         height: 400px;
     }
     .plants {
-        height: 2120px;
+        height: 2080px;
     }
     .plantlover {
         display: flex;
@@ -485,6 +479,9 @@
     .latestdescription {
         margin-bottom: 15px;
         font-size: .8rem;
+    }
+    .righttitle {
+        font-size: 1rem;
     }
     .latestimage {
         flex-direction: column;
