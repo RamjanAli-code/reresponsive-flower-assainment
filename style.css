@@ -161,7 +161,7 @@
 .join {
     height: 400px;
     width: 100%;
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: aqua;
@@ -322,7 +322,7 @@
 }
 
 .leftsecond {
-    background-image: url(/assets/deal-ana.png);
+    background-image: url(assets/deal-ana.png);
     background-size: cover;
     margin: 10px;
     padding: 66px;
@@ -337,7 +337,7 @@
 }
 
 .rightlatestimage {
-    background-image: url(/assets/deal-zabo.png);
+    background-image: url(assets/deal-zabo.png);
     background-size: cover;
     padding: 100px;
     border-radius: 8px;
